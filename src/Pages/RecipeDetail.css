@@ -1,0 +1,53 @@
+.recipe-detail-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight:200;
+  font-size:2rem;
+  text-align:center;
+
+}
+
+.recipe-detail-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size:1rem;
+  text-align:left;
+
+}
+
+.ingredient-buttons{
+text-align: left;
+font-weight: 500;
+font-family: 'Roboto', sans-serif;
+transition-duration: 0.1s;
+}
+
+.ingredient-buttons:hover{
+color:white;
+background-color: rgba(188, 188, 188, 0.4);
+}
+
+.ingredients-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  font-size:1.1rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(188, 188, 188, 0.4);
+  
+}
+
+.metric-button{
+  justify-content: left;
+  border-radius: 5%;
+  margin-right: -45px;
+  box-shadow:none;
+  background-color: rgb(252, 252, 252);
+  border-color: rgb(189, 189, 189);
+}
+
+.read-button{
+  border-radius: 5%;
+  box-shadow:none;
+  background-color: rgb(252, 252, 252);
+  border-color: rgb(189, 189, 189);
+  margin-top: 1rem;
+}

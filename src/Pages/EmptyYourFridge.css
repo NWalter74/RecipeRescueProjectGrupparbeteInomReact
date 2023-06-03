@@ -1,0 +1,112 @@
+.recipecard-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color:black;
+  text-align: center;
+  font-size:  1rem;
+}
+
+.recipecard-title:hover{
+  text-decoration: underline;
+}
+
+.recipecard-ingredients-info{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-decoration:none;
+  color:black;
+  text-align: center;
+  font-size:  0.9rem;
+
+}
+
+.recipecard-used-ingredients{
+  font-family: 'Roboto', sans-serif;
+  color:rgb(67, 175, 67);
+  font-weight:300;
+  text-transform: capitalize;
+  text-align: left;
+  font-size:  0.9rem;
+  padding-left: 5%;
+}
+
+.recipecard-missing-ingredients{
+  font-family: 'Roboto', sans-serif;
+  color:rgb(167, 37, 37);
+  font-weight:300;
+  text-transform: capitalize;
+  text-align: left;
+  font-size:  0.9rem;
+  padding-left: 5%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.horizontal-line{
+  color:black;
+  
+}
+
+.search-field {
+  width: 95%;
+  max-width: 57rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2rem;
+  }
+  
+  .button-position{
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 0.1rem;
+  }
+    
+  .common-dropdown{
+  display: flex;
+  justify-content: center;
+  margin-top: -1.8rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+  .search-field, .button-position, .common-dropdown {
+  width: auto;
+  }
+  }
+
+.pdf-button{
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  transition-duration: 0.1s;
+  height: 2rem;
+  
+  }
+  
+  .pdf-button:hover{
+  color:rgb(0, 0, 0);
+  background-color: rgba(188, 188, 188, 0.4);
+  }
+
+  .search-field {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .recipecards-class {
+    position: relative;
+    z-index: 0;
+  }
+
+  .ingredient-buttons-container{
+    max-width: 75%;
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+
+  .ingredient-buttons{
+   padding-top:0%;
+   padding-bottom:0%;
+  }

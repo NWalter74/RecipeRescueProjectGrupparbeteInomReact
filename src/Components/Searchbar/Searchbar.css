@@ -1,0 +1,39 @@
+/* Media queries för olika skärmstorlekar */
+@media (max-width: 567px) {
+    .search-container {
+      padding: 1rem;
+    }
+}
+
+.search-container {
+    padding: 1rem;
+}
+
+.search-container form {
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.search-container form .form-control {
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 100%;
+}
+
+.search-container form .btn {
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 40px;
+}
+
+.btn.hover-effect:hover{
+    color: white;
+    background-color: #4b612b;
+  }

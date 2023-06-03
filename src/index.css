@@ -1,0 +1,105 @@
+body {
+  background-color: #E8E9EB;
+}
+
+.filterbutton {
+  border-radius: 10rem;
+}
+
+.filtercontainer {
+  display: flex;
+  justify-content: center;
+  margin-right: 40%;
+}
+
+select.filterHome {
+  margin-top: 1.2rem !important;
+
+}
+
+@media (max-width: 768px) {
+  .filterbutton {
+    font-size: 14px;
+    padding: 5px 10px;
+
+  }
+
+  .buttongroup {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .buttongroup .homepage {
+    font-size: 14px;
+  }
+
+  .homeIcons {
+    display: none;
+  }
+
+  select.filterHome {
+    margin-top: 1.2rem !important;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .filterbutton {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+
+  select.filterHome {
+    margin-top: 0.2rem !important;
+  }
+
+}
+
+
+toggle-button.btn {
+  color: black;
+  margin-right: 10px;
+  padding: 10px 20px;
+
+}
+
+
+.btn {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: 1.2s;
+}
+
+.btn.hover-effect:hover {
+  color: white;
+  background-color: #4b612b;
+}
+
+.btn:active {
+  background: #ffffff;
+  box-shadow: inset 7px 7px 14px #ffffff,
+    inset -7px -7px 14px #ffffff;
+
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .btn-group {
+    position: sticky;
+  }
+}
+
+.rounded-pill {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.home-screen-titles {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
